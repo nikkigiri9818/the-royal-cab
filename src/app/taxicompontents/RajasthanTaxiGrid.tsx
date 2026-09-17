@@ -3,12 +3,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import taxi1 from "@/assets/img/taxi/taxi.avif";
-import taxi2 from "@/assets/img/taxi/taxi.avif";
-import taxi3 from "@/assets/img/taxi/taxi.avif";
-import taxi4 from "@/assets/img/taxi/taxi.avif";
-import taxi5 from "@/assets/img/taxi/taxi.avif";
-import taxi6 from "@/assets/img/taxi/taxi.avif";
+import taxi1 from "@/assets/img/taxi/sedancar.webp";
+import taxi2 from "@/assets/img/taxi/ertigacar.webp";
+import taxi3 from "@/assets/img/taxi/tayoto.webp";
+import taxi4 from "@/assets/img/taxi/tempotraveller.webp";
+import taxi5 from "@/assets/img/taxi/forceurbania.avif";
+import taxi6 from "@/assets/img/taxi/luxriousbus.webp";
 
 const taxiData = [
   {

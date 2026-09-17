@@ -4,7 +4,7 @@ interface DataType {
    sub_title: string;
    title: string;
 }
-const BreadCrumb = ({ sub_title, title }: DataType) => {
+const BreadCrumb = ({ sub_title, title,image }: DataType) => {
    return (
       <div className="tg-breadcrumb-area tg-breadcrumb-spacing-5 fix p-relative z-index-1 include-bg" style={{ backgroundImage: `url(/assets/img/breadcrumb/breadcrumb.jpg)` }}>
          <div className="tg-hero-top-shadow"></div>

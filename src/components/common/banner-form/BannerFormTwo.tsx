@@ -102,13 +102,13 @@ const BannerFormTwo = () => {
 
             <div className="col-12 col-lg mb-15">
                <div className="tg-booking-form-parent-inner">
-                  <span className="tg-booking-form-title mb-5">Message:</span>
+                  <span className="tg-booking-form-title mb-5 ">Message:</span>
                   <div className="tg-booking-add-input-date p-relative">
-                     <textarea
+                     <input
                         name="message"
                         className="input w-100"
+                     
                         placeholder="Write your message..."
-                        rows={4}
                         value={formData.message}
                         onChange={handleChange}
                         required
