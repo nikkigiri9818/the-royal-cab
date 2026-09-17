@@ -6,6 +6,8 @@ import RajasthanTaxiGrid from "../taxicompontents/RajasthanTaxiGrid"
 import TaxiContactSection from "../taxicompontents/TaxiContactSection"
 import Listing from "@/components/homes/home-three/Listing"
 import Testimonial from "@/components/homes/home-three/Testimonial"
+import TaxiServicesSection from "../taxicompontents/TaxiServicesSection"
+import OneWayTaxi from "../taxicompontents/Onewaytaxi "
 
 const taxiservice = () => {
    return (
@@ -15,6 +17,8 @@ const taxiservice = () => {
             <BreadCrumb title="Taxi Services" sub_title="Taxi Services" />
             <RajasthanTaxiAbout />
             <RajasthanTaxiGrid/>
+            <TaxiServicesSection/>
+            <OneWayTaxi/>
             <Listing/>
             <Testimonial/>
             <TaxiContactSection/>

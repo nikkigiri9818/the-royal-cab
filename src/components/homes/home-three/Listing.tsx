@@ -137,12 +137,12 @@ const Listing = () => {
 
                            <SwiperSlide key={item.id}>
 
-                              <div className="tg-listing-card-item mb-30" style={{height:"450px",width:"100%"}}>
+                              <div className="tg-listing-card-item mb-30" style={{height:"540px",width:"100%"}}>
 
                                  {/* Card Image */}
                                  <div className="tg-listing-card-thumb fix mb-15 p-relative">
 
-                                    <Link href="/tour-details">
+                                    <Link href={`/tour-services/${item.slug}`}>
 
                                        <Image
                                           className="tg-card-border w-100"
@@ -196,7 +196,7 @@ const Listing = () => {
 
                                     <h4 className="tg-listing-card-title">
 
-                                       <Link href="/tour-details">
+                                       <Link  href={`/tour-services/${item.slug}`}>
                                           {item.title}
                                        </Link>
 

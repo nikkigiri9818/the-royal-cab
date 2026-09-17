@@ -7,7 +7,7 @@ import car6 from "@/assets/img/taxi/taxi.avif";
 
 export const luxuryCars = [
   {
-    id: 1,
+    id: "bmw",
     slug: "bmw-5-series",
     name: "BMW 5 Series",
     category: "Luxury Sedan",
@@ -34,10 +34,10 @@ export const luxuryCars = [
   },
 
   {
-    id: 2,
-    slug: "mercedes-benz-e-class",
-    name: "Mercedes Benz E-Class",
-    category: "Luxury Sedan",
+    id: "jaguar",
+    slug: "jaguar-f-pace-&-xf",
+    name: "Jaguar F-Pace & XF",
+    category: "Luxury SUV",
     image: car2,
 
     price: "₹40",
@@ -61,7 +61,7 @@ export const luxuryCars = [
   },
 
   {
-    id: 3,
+    id: "audi",
     slug: "audi-a6",
     name: "Audi A6",
     category: "Premium Sedan",
@@ -88,9 +88,9 @@ export const luxuryCars = [
   },
 
   {
-    id: 4,
-    slug: "toyota-vellfire",
-    name: "Toyota Vellfire",
+    id: "fortuner",
+    slug: "fortuner",
+    name: "Fortuner",
     category: "Luxury MPV",
     image: car4,
 
@@ -115,7 +115,7 @@ export const luxuryCars = [
   },
 
   {
-    id: 5,
+    id: "mercedes",
     slug: "mercedes-v-class",
     name: "Mercedes V-Class",
     category: "Luxury Van",
@@ -167,4 +167,9 @@ export const luxuryCars = [
       "Professional Chauffeur",
     ],
   },
+
+
+
+
+  
 ];

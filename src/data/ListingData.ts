@@ -48,10 +48,11 @@ interface DataType {
    recommended?: string;
    category?: string;
 }
-
 const listing_data = [
    {
       id: 1,
+      key: "golden-triangle-itinerary",
+      slug: "golden-triangle-itinerary",
       thumb: listing3_img1,
       time: "6D/5N",
       title: "Golden Triangle Itinerary",
@@ -61,6 +62,8 @@ const listing_data = [
    },
    {
       id: 2,
+      key: "7-day-coastal-heritage-tour-tamilnadu",
+      slug: "7-day-coastal-heritage-tour-tamilnadu",
       thumb: listing3_img2,
       time: "7D/6N",
       title: "7-Day Coastal & Heritage Tour Tamilnadu",
@@ -70,6 +73,8 @@ const listing_data = [
    },
    {
       id: 3,
+      key: "wildlife-nature-trail-8-9-days",
+      slug: "wildlife-nature-trail-8-9-days",
       thumb: listing3_img3,
       time: "9D/8N",
       title: "Wildlife & Nature Trail (8-9 Days)",
@@ -79,6 +84,8 @@ const listing_data = [
    },
    {
       id: 4,
+      key: "10-day-cultural-temple-circuit-classic-tamil-nadu",
+      slug: "10-day-cultural-temple-circuit-classic-tamil-nadu",
       thumb: listing3_img4,
       time: "9D/8N",
       title: "10-Day Cultural & Temple Circuit (Classic Tamil Nadu)",
@@ -88,6 +95,8 @@ const listing_data = [
    },
    {
       id: 5,
+      key: "spiritual-heritage-highlights-6-7-days",
+      slug: "spiritual-heritage-highlights-6-7-days",
       thumb: listing3_img5,
       time: "7D/6N",
       title: "Spiritual & Heritage Highlights (6-7 Days)",
@@ -97,6 +106,8 @@ const listing_data = [
    },
    {
       id: 6,
+      key: "7-day-heritage-itinerary-jaipur-to-udaipur",
+      slug: "7-day-heritage-itinerary-jaipur-to-udaipur",
       thumb: listing3_img6,
       time: "7D/6N",
       title: "7-Day Heritage Itinerary (Jaipur to Udaipur)",
@@ -106,6 +117,8 @@ const listing_data = [
    },
    {
       id: 7,
+      key: "8-day-royal-rajasthan-tour",
+      slug: "8-day-royal-rajasthan-tour",
       thumb: listing3_img7,
       time: "8D/7N",
       title: "8-Day Royal Rajasthan Tour",
@@ -115,6 +128,8 @@ const listing_data = [
    },
    {
       id: 8,
+      key: "14-day-in-depth-cultural-tour-rajasthan",
+      slug: "14-day-in-depth-cultural-tour-rajasthan",
       thumb: listing3_img8,
       time: "14D/13N",
       title: "14-Day In-Depth Cultural Tour of Rajasthan",
@@ -124,6 +139,8 @@ const listing_data = [
    },
    {
       id: 9,
+      key: "7-day-heritage-itinerary-jaipur-to-udaipur-2",
+      slug: "7-day-heritage-itinerary-jaipur-to-udaipur-2",
       thumb: listing3_img1,
       time: "7D/6N",
       title: "7-Day Heritage Itinerary (Jaipur to Udaipur)",
@@ -133,6 +150,8 @@ const listing_data = [
    },
    {
       id: 10,
+      key: "5-day-heritage-itinerary-jaipur-to-udaipur",
+      slug: "5-day-heritage-itinerary-jaipur-to-udaipur",
       thumb: listing3_img2,
       time: "5D/4N",
       title: "5-Day Heritage Itinerary (Jaipur to Udaipur)",
@@ -142,6 +161,8 @@ const listing_data = [
    },
    {
       id: 11,
+      key: "2-days-pink-city-tour-jaipur",
+      slug: "2-days-pink-city-tour-jaipur",
       thumb: listing3_img3,
       time: "2D/1N",
       title: "2-Days Pink City Tour, Jaipur",
@@ -151,6 +172,8 @@ const listing_data = [
    },
    {
       id: 12,
+      key: "3-days-jaipur-pushkar",
+      slug: "3-days-jaipur-pushkar",
       thumb: listing3_img4,
       time: "3D/2N",
       title: "3 Days Jaipur Pushkar",

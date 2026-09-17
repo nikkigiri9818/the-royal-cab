@@ -57,7 +57,7 @@ const LuxuryCarsPage = () => {
               >
 
                 <Link
-                  href={`/luxury-cars/${car.slug}`}
+                  href={`/luxury-cars/${car.slug}/#${car.id}`}
                   className="luxury-card-link"
                 >
 

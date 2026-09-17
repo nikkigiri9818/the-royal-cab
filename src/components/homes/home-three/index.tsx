@@ -14,6 +14,8 @@ import FooterThree from "@/layouts/footers/FooterThree"
 import Cta from "../home-one/Cta"
 import TaxiSlider from "./TaxiSlider"
 import LuxuryCars from "./LuxuryCars"
+import OneWayTaxiSlider from "./OneWayTaxiSlider"
+import TaxiContactSection from "@/app/taxicompontents/TaxiContactSection"
  const Listing = dynamic(() => import("./Listing"), { ssr: false });
 
 const HomeThree = () => {
@@ -29,11 +31,13 @@ const HomeThree = () => {
             <Choose />
             <CtaThree />
             <LuxuryCars/>
-            <Location />
+            {/* <Location /> */}
+            <OneWayTaxiSlider/>
             <CtaTwo />
             <Testimonial />
             {/* <Blog />
             <Cta /> */}
+            <TaxiContactSection/>
          </main>
          <FooterThree />
       </>
