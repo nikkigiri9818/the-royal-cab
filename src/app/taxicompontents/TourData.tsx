@@ -13,9 +13,17 @@ export type TourDataType = {
   price: string;
   startCity: string;
   tripType: string;
+  type?: string;
   destinations: string;
   description: string;
+  shortDescription?: string;
   image: string;
+
+  overview?: string;
+  overviewExtra?: string;
+  inclusions?: string[];
+  exclusions?: string[];
+  distance?: string;
 
   itinerary: TourDay[];
 

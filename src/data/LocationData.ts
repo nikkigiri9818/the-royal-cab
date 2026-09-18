@@ -9,6 +9,7 @@ import location2_6 from "@/assets/img/location/su/destination-6.jpg";
 
 interface DataType {
    id: number;
+   page?: string;
    thumb: StaticImageData;
    title: string;
    total?: string;

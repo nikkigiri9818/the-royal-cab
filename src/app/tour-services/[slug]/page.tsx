@@ -188,7 +188,7 @@ const TourDetailsPage = async ({ params }: PageProps) => {
                     </span>
 
                     <strong>
-                      {tour.type}
+                      {tour.type || tour.tripType}
                     </strong>
                   </div>
 
@@ -221,11 +221,11 @@ const TourDetailsPage = async ({ params }: PageProps) => {
               ================================================== */}
 
               <TourTabs
-                overview={tour.overview}
+                overview={tour.overview || tour.description}
                 overviewExtra={tour.overviewExtra}
                 itinerary={tour.itinerary}
-                inclusions={tour.inclusions}
-                exclusions={tour.exclusions}
+                inclusions={tour.inclusions || tour.included}
+                exclusions={tour.exclusions || tour.excluded}
               />
 
 
@@ -242,7 +242,7 @@ const TourDetailsPage = async ({ params }: PageProps) => {
                   </span>
 
                   <h3>
-                    {tour.route || "India"}
+                    {Array.isArray(tour.route) ? tour.route.join(" • ") : (tour.route || "India")}
                   </h3>
 
                 </div>
@@ -254,7 +254,7 @@ const TourDetailsPage = async ({ params }: PageProps) => {
                   </span>
 
                   <strong>
-                    {tour.distance || "As per itinerary"}
+                    {tour.distance || tour.totalKm || "As per itinerary"}
                   </strong>
 
                 </div>
@@ -420,7 +420,7 @@ const TourDetailsPage = async ({ params }: PageProps) => {
                   </span>
 
                   <strong>
-                    {tour.type}
+                    {tour.type || tour.tripType}
                   </strong>
 
                 </div>
@@ -555,7 +555,7 @@ const TourDetailsPage = async ({ params }: PageProps) => {
                   </h3>
 
                   <p>
-                    {item.shortDescription}
+                    {item.shortDescription || item.description}
                   </p>
 
 

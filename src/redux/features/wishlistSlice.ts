@@ -1,11 +1,12 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { toast } from "react-toastify";
 import { setLocalStorage, getLocalStorage } from "../../utils/localstorage";
+import { StaticImageData } from "next/image";
 
 export interface Product {
    id: number;
    title: string;
-   thumb: string;
+   thumb: StaticImageData | string;
    price: number;
 }
 

@@ -6,7 +6,7 @@ import { useDispatch } from "react-redux";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
-import listing_data from "@/data/ListingData";
+import listing_data, { DataType } from "@/data/ListingData";
 import { addToWishlist } from "@/redux/features/wishlistSlice";
 
 import shape_1 from "@/assets/img/listing/about-shape.png";
@@ -20,7 +20,7 @@ import "swiper/css/pagination";
 const Listing = () => {
    const dispatch = useDispatch();
 
-   const handleAddToWishlist = (item: any) => {
+   const handleAddToWishlist = (item: DataType) => {
       dispatch(addToWishlist(item));
    };
 

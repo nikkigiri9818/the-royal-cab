@@ -3,8 +3,36 @@ import FooterSix from "@/layouts/footers/FooterSix";
 import HeaderThree from "@/layouts/headers/HeaderThree";
 import Image from "next/image";
 
+interface RouteInfoItem {
+  label: string;
+  value: string;
+}
+
+interface VehicleCard {
+  title: string;
+  image: string;
+  items?: string[];
+  details?: string[];
+}
+
+interface TaxiSection {
+  title: string;
+  cards: VehicleCard[];
+}
+
+interface TaxiDetailPageData {
+  type?: string;
+  title: string;
+  subtitle?: string;
+  intro?: string;
+  heroImage: string;
+  routeInfo?: RouteInfoItem[];
+  sections: TaxiSection[];
+  attractions?: string[];
+}
+
 type Props = {
-  data: any;
+  data: TaxiDetailPageData;
 };
 
 export default function TaxiDetailPage({ data }: Props) {
@@ -77,7 +105,7 @@ export default function TaxiDetailPage({ data }: Props) {
 
             <div className="route-info-grid">
 
-              {data.routeInfo.map((item: any) => (
+              {data.routeInfo.map((item: RouteInfoItem) => (
                 <div
                   className="route-info-card"
                   key={item.label}
@@ -132,7 +160,7 @@ export default function TaxiDetailPage({ data }: Props) {
 
       {/* ================= ALL SECTIONS ================= */}
 
-      {data.sections.map((section: any, sectionIndex: number) => (
+      {data.sections.map((section: TaxiSection, sectionIndex: number) => (
 
         <section
           className={
@@ -164,7 +192,7 @@ export default function TaxiDetailPage({ data }: Props) {
               }
             >
 
-              {section.cards.map((card: any) => (
+              {section.cards.map((card: VehicleCard) => (
 
                 <article
                   className="vehicle-card"
@@ -331,7 +359,7 @@ export default function TaxiDetailPage({ data }: Props) {
 
               <div className="attraction-grid">
 
-                {data.attractions.map(
+                {data.attractions?.map(
                   (item: string, index: number) => (
 
                     <div

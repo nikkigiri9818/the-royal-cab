@@ -1,12 +1,5 @@
 import { StaticImageData } from "next/image";
 
-import listing_img1 from "@/assets/img/listing/su/listing-1.jpg"
-import listing_img2 from "@/assets/img/listing/su/listing-2.jpg"
-import listing_img3 from "@/assets/img/listing/su/listing-3.jpg"
-import listing_img4 from "@/assets/img/listing/su/listing-4.jpg"
-import listing_img5 from "@/assets/img/listing/su/listing-5.jpg"
-import listing_img6 from "@/assets/img/listing/su/listing-6.jpg"
-
 import listing3_img1 from "@/assets/img/listing/listing-1.jpg"
 import listing3_img2 from "@/assets/img/listing/listing-2.jpg"
 import listing3_img3 from "@/assets/img/listing/listing-3.jpg"
@@ -16,30 +9,18 @@ import listing3_img6 from "@/assets/img/listing/listing-6.jpg"
 import listing3_img7 from "@/assets/img/listing/listing-8.jpg"
 import listing3_img8 from "@/assets/img/listing/listing-4.jpg"
 
-import listing5_img1 from "@/assets/img/listing/listing-3/list.jpg"
-import listing5_img2 from "@/assets/img/listing/listing-3/list-2.jpg"
-import listing5_img3 from "@/assets/img/listing/listing-3/list-3.jpg"
-import listing5_img4 from "@/assets/img/listing/listing-3/list-4.jpg"
-import listing5_img5 from "@/assets/img/listing/listing-3/list-5.jpg"
-import listing5_img6 from "@/assets/img/listing/listing-3/list-6.jpg"
-import listing5_img7 from "@/assets/img/listing/listing-3/list-7.jpg"
-import listing5_img8 from "@/assets/img/listing/listing-3/list-8.jpg"
-
-import listing7_img1 from "@/assets/img/listing/listing-5/listing-1.jpg"
-import listing7_img2 from "@/assets/img/listing/listing-5/listing-2.jpg"
-import listing7_img3 from "@/assets/img/listing/listing-5/listing-3.jpg"
-import listing7_img4 from "@/assets/img/listing/listing-5/listing-4.jpg"
-
-interface DataType {
+export interface DataType {
    id: number;
-   page: string;
+   key?: string;
+   slug?: string;
+   page?: string;
    thumb: StaticImageData;
    tag?: string;
    featured?: string;
-   time: string;
+   time?: string;
    guest?: string;
    title: string;
-   location: string;
+   location?: string;
    delete_price?: number;
    price: number;
    review: number;
@@ -48,7 +29,7 @@ interface DataType {
    recommended?: string;
    category?: string;
 }
-const listing_data = [
+const listing_data: DataType[] = [
    {
       id: 1,
       key: "golden-triangle-itinerary",

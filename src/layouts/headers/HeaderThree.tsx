@@ -7,14 +7,6 @@ import UseSticky from "@/hooks/UseSticky";
 import Offcanvas from "./Menu/Offcanvas";
 import Sidebar from "./Menu/Sidebar";
 import PhoneIcon from "@/svg/PhoneIcon";
-import CartIcon from "@/svg/CartIcon";
-import UserIcon from "@/svg/UserIcon";
-import HeaderCart from "./Menu/HeaderCart";
-import TotalCart from "./Menu/TotalCart";
-
-import logo_1 from "@/assets/img/logo/logo-white.png";
-import logo_2 from "@/assets/img/logo/logo-green.png";
-import logo_3 from "@/assets/img/logo/logo-1.jpeg";
 import logo_4 from "@/assets/img/logo/logo-5.png";
 
 const HeaderThree = () => {

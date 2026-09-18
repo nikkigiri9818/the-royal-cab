@@ -16,8 +16,9 @@ export function generateStaticParams() {
 }
 
 // SEO metadata per route
-export function generateMetadata({ params }: { params: { slug: string } }) {
-  const route = getRouteBySlug(params.slug);
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const route = getRouteBySlug(slug);
   if (!route) return {};
   return {
     title: `${route.title} | Book One Way Cab For ${route.oneWayFare}`,
@@ -29,12 +30,13 @@ const PHONE = "+91XXXXXXXXXX"; // TODO: replace with Thar Vibe Holidays contact 
 const tealColor = "#0d4a4a";
 const orangeColor = "#f26522";
 
-export default function OneWayTaxiDetailPage({
+export default async function OneWayTaxiDetailPage({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const route = getRouteBySlug(params.slug);
+  const { slug } = await params;
+  const route = getRouteBySlug(slug);
   if (!route) return notFound();
 
   return (
