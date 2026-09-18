@@ -7,11 +7,11 @@ import taxi_1 from "@/assets/img/taxi/taxi.avif";
 
 
 
-import taxi_2 from "@/assets/img/taxi/taxi.avif";
-import taxi_3 from "@/assets/img/taxi/taxi.avif";
-import taxi_4 from "@/assets/img/taxi/taxi.avif";
-import taxi_5 from "@/assets/img/taxi/taxi.avif";
-import taxi_6 from "@/assets/img/taxi/taxi.avif";
+import taxi_2 from "@/assets/img/taxi/tayoto.webp";
+import taxi_3 from "@/assets/img/taxi/sedancar.webp";
+import taxi_4 from "@/assets/img/taxi/suvcar.webp";
+import taxi_5 from "@/assets/img/luxricar/crysta.avif";
+import taxi_6 from "@/assets/img/taxi/maharaja.webp";
 
 
 

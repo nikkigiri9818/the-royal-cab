@@ -61,13 +61,13 @@ const HeaderThree = () => {
                      </span>
                      <div className="tg-header-contact-number d-none d-xl-block">
                         <span>Call Us:</span>
-                        <Link href="tel:+123595966">+123 5959 66</Link>
+                        <Link href="tel:+91 7849993464">+91 7849993464</Link>
                      </div>
                   </div>
-                  <div className="tg-header-cart p-relative ml-20 pl-20 d-none d-xl-block">
+                  {/* <div className="tg-header-cart p-relative ml-20 pl-20 d-none d-xl-block">
                      <span className="tg-header-border"></span>
                     
-                  </div>
+                  </div> */}
                   <div className="tg-header-btn ml-20 d-none d-sm-block">
                      
                   </div>

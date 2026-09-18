@@ -3,7 +3,7 @@ import Link from "next/link"
 
 const CtaTwo = () => {
    return (
-      <div className="tg-banner-area include-bg" style={{ backgroundImage: `url(/assets/img/banner/banner.png)` }}>
+      <div className="tg-banner-area include-bg" style={{ backgroundImage: `url(/assets/img/tour/udaipur.webp)` }}>
          <div className="container">
             <div className="col-lg-12">
                <div className="tg-banner-2-content text-center">
@@ -12,7 +12,7 @@ const CtaTwo = () => {
                      <h2 className="tg-section-title-white mb-25 wow fadeInUp" data-wow-delay=".5s" data-wow-duration=".9s">Popular Travel Destinations <br />Available in India</h2>
                   </div>
                   <div className="tp-banner-btn-wrap wow fadeInUp" data-wow-delay=".6s" data-wow-duration=".9s">
-                     <Link href="/tour-details" className="tg-btn tg-btn-transparent tg-btn-switch-animation">
+                     <Link href="/tour-services" className="tg-btn tg-btn-transparent tg-btn-switch-animation">
                         <Button text="Book Your Trip Now" />
                      </Link>
                   </div>

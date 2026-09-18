@@ -33,7 +33,7 @@ const banner_data: SlideContent[] = [
       btnLink: "/taxi-services",
    },
    {
-      thumb: "/assets/img/hero/hero-2.jpg",
+      thumb: "/assets/img/tour/udaipur.webp",
       subtitle: "* Mercedes, BMW, Audi & More",
       title: "Travel in Style & Comfort",
       desc: "Premium luxury car rentals for weddings, <br /> corporate travel and special occasions",

@@ -2,7 +2,6 @@ import BreadCrumb from "@/components/common/BreadCrumb";
 import FooterSix from "@/layouts/footers/FooterSix";
 import HeaderThree from "@/layouts/headers/HeaderThree";
 import Image from "next/image";
-import Link from "next/link";
 
 type Props = {
   data: any;
@@ -14,7 +13,7 @@ export default function TaxiDetailPage({ data }: Props) {
   return (
     <>
     <HeaderThree/>
-    <BreadCrumb title="Taxi Services Details" sub_title={data.title} />
+    <BreadCrumb title="Taxi Services Details" sub_title={data.title} image="https://choosemycar.com/wp-content/uploads/2025/02/toyota-corolla-hybrid-best-cars-with-excellent-fuel-economy.webp" />
     <main className="taxi-detail-page">
 
       {/* ================= HERO ================= */}

@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 
-import logo from "@/assets/img/logo/logo-green.png"
+import logo from "@/assets/img/logo/logo-5.png"
 import MobileMenu from "./MobileMenu";
 import { useState } from "react";
 
@@ -30,9 +30,12 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
             <nav className="tgmobile__menu-box">
                <div onClick={() => setOffCanvas(false)} className="close-btn"><i className="fa-solid fa-xmark"></i></div>
                <div className="nav-logo">
-                  <Link href="/"><Image src={logo} alt="logo" /></Link>
+                  <Link href="/"><Image src={logo}
+                  width={50}
+                  height={90}
+                   alt="logo" /></Link>
                </div>
-               <div className="tgmobile__search">
+               {/* <div className="tgmobile__search">
                   <form onSubmit={handleSubmit}>
                      <input
                         type="text"
@@ -41,7 +44,7 @@ const Offcanvas = ({ offCanvas, setOffCanvas }: MobileSidebarProps) => {
                         onChange={handleSearchChange}
                      />
                   </form>
-               </div>
+               </div> */}
                <div className="tgmobile__menu-outer">
                   <MobileMenu />
                </div>

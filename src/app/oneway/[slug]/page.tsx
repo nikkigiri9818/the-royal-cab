@@ -7,6 +7,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { oneWayTaxiRoutes, getRouteBySlug } from "@/app/taxicompontents/Onewaytaxi ";
+import HeaderThree from "@/layouts/headers/HeaderThree";
+import FooterSix from "@/layouts/footers/FooterSix";
 
 // Pre-render one page per route at build time
 export function generateStaticParams() {
@@ -36,6 +38,9 @@ export default function OneWayTaxiDetailPage({
   if (!route) return notFound();
 
   return (
+
+    <>
+    <HeaderThree/>
     <main>
       {/* Hero */}
       <section
@@ -204,6 +209,8 @@ export default function OneWayTaxiDetailPage({
         </section>
       </div>
     </main>
+    <FooterSix/>
+    </>
   );
 }
 

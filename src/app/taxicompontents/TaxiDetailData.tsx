@@ -7,7 +7,7 @@ export const taxiDetailData = {
     type: "car-rental",
     title: "Car Rental In Jaipur",
     subtitle: "Self Drive & With Driver Car Rental Service",
-    heroImage: "/assets/img/taxi/jaipur-car-rental-detail.jpg",
+    heroImage: "/assets/img/taxi/tayoto.webp",
 
     intro:
       "Book a car rental in Jaipur for local sightseeing, airport transfer, family trips, weddings, business travel and outstation tours. Choose from hatchback, sedan, SUV, premium cars and Tempo Traveller according to your travel requirement.",
@@ -22,7 +22,7 @@ export const taxiDetailData = {
         cards: [
           {
             title: "Hatchback Cars",
-            image: "/assets/img/taxi/hatchback-car.jpg",
+            image: "/assets/img/taxi/hatchbackcars.avif",
 
             items: [
               "Maruti Alto 800 Petrol: ₹1900",
@@ -40,7 +40,7 @@ export const taxiDetailData = {
 
           {
             title: "Sedan Cars",
-            image: "/assets/img/taxi/sedan-car.jpg",
+            image: "/assets/img/taxi/sedancar.webp",
 
             items: [
               "Maruti Dzire MT Petrol: ₹2450",
@@ -60,7 +60,7 @@ export const taxiDetailData = {
 
           {
             title: "XUV / SUV Cars",
-            image: "/assets/img/taxi/suv-car.jpg",
+            image: "/assets/img/taxi/suvcar.webp",
 
             items: [
               "Toyota Fortuner 4×4: ₹10500",
@@ -80,64 +80,14 @@ export const taxiDetailData = {
         ],
       },
 
-      {
-        title: "XUV / SUV Self-Drive Car Rental In Jaipur",
-
-        cards: [
-          {
-            title: "Toyota Fortuner",
-            image: "/assets/img/taxi/fortuner.jpg",
-
-            items: [
-              "Fortuner 4×2 AT: ₹10000",
-              "Fortuner 4×2 Diesel AT: ₹11000",
-              "Fortuner 4×4 Diesel AT: ₹12000",
-              "Fortuner GR S 4×4 Diesel AT: ₹15000",
-            ],
-
-            description:
-              "Premium Toyota Fortuner self-drive option for luxury family trips and outstation travel.",
-          },
-
-          {
-            title: "Mahindra Scorpio",
-            image: "/assets/img/taxi/scorpio.jpg",
-
-            items: [
-              "Mahindra Marazzo MT Diesel: ₹4499",
-              "Mahindra Scorpio MT S10: ₹4499",
-              "Mahindra Scorpio S11: ₹7000",
-              "Mahindra Scorpio N: ₹7000",
-            ],
-
-            description:
-              "Mahindra Scorpio and other SUV options for family tours, adventure trips and outstation travel.",
-          },
-
-          {
-            title: "Mahindra Thar",
-            image: "/assets/img/taxi/thar.jpg",
-
-            items: [
-              "Mahindra Thar 4×4: ₹5000",
-              "Mahindra Thar AX: ₹5500",
-              "Mahindra Thar LX: ₹7000",
-              "Mahindra Thar AT: ₹8000",
-            ],
-
-            description:
-              "Mahindra Thar self-drive rental for road trips, weekend travel and adventure journeys.",
-          },
-        ],
-      },
-
+    
       {
         title: "Car Rental In Jaipur With Driver",
 
         cards: [
           {
             title: "Sedan Vehicle",
-            image: "/assets/img/taxi/sedan-driver.jpg",
+            image: "/assets/img/taxi/sedancar.webp",
 
             details: [
               "Vehicle Type: Maruti Dzire, Toyota Etios, Hyundai Xcent",
@@ -150,7 +100,7 @@ export const taxiDetailData = {
 
           {
             title: "SUV / Car",
-            image: "/assets/img/taxi/suv-driver.jpg",
+            image: "/assets/img/taxi/suvcar.webp",
 
             details: [
               "Vehicle Type: Toyota Innova, Maruti Ertiga",
@@ -163,7 +113,7 @@ export const taxiDetailData = {
 
           {
             title: "Toyota Crysta Car",
-            image: "/assets/img/taxi/crysta-driver.jpg",
+            image: "/assets/img/taxi/tayoto.webp",
 
             details: [
               "Vehicle Type: Toyota Innova Crysta",
@@ -182,7 +132,7 @@ export const taxiDetailData = {
         cards: [
           {
             title: "Force Tempo Traveller",
-            image: "/assets/img/taxi/force-tempo.jpg",
+            image: "/assets/img/taxi/force.webp",
 
             details: [
               "Vehicle Type: Force Tempo Traveller",
@@ -195,7 +145,7 @@ export const taxiDetailData = {
 
           {
             title: "Urbania Tempo Traveller",
-            image: "/assets/img/taxi/urbania.jpg",
+            image: "/assets/img/taxi/forceurbania.avif",
 
             details: [
               "Vehicle Type: Force Urbania",
@@ -208,7 +158,7 @@ export const taxiDetailData = {
 
           {
             title: "Maharaja Tempo Traveller",
-            image: "/assets/img/taxi/maharaja-tempo.jpg",
+            image: "/assets/img/taxi/maharaja.webp",
 
             details: [
               "Vehicle Type: Maharaja Tempo Traveller",
@@ -231,7 +181,7 @@ export const taxiDetailData = {
     type: "tempo",
     title: "Jaipur Tempo Traveller",
     subtitle: "9, 12, 17, 20 & 25 Seater Tempo Traveller Rental",
-    heroImage: "/assets/img/taxi/tempo-traveller-detail.jpg",
+    heroImage: "/assets/img/taxi/sedancar.webp",
 
     intro:
       "Book a Tempo Traveller in Jaipur for family tours, Rajasthan sightseeing, weddings, corporate trips, airport transfers, religious tours and outstation travel. Different seating capacity options are available for small and large groups.",
@@ -246,7 +196,7 @@ export const taxiDetailData = {
         cards: [
           {
             title: "Force Tempo Traveller",
-            image: "/assets/img/taxi/force-tempo.jpg",
+            image: "/assets/img/taxi/forceurbania.avif",
 
             details: [
               "Vehicle Type: Force Tempo Traveller",
@@ -260,7 +210,7 @@ export const taxiDetailData = {
 
           {
             title: "Urbania Tempo Traveller",
-            image: "/assets/img/taxi/urbania.jpg",
+            image: "/assets/img/taxi/force.webp",
 
             details: [
               "Vehicle Type: Force Urbania",
@@ -274,7 +224,7 @@ export const taxiDetailData = {
 
           {
             title: "Maharaja Tempo Traveller",
-            image: "/assets/img/taxi/maharaja-tempo.jpg",
+            image: "/assets/img/taxi/maharaja.webp",
 
             details: [
               "Vehicle Type: Maharaja Tempo Traveller",
@@ -294,7 +244,7 @@ export const taxiDetailData = {
         cards: [
           {
             title: "9 Seater Tempo Traveller",
-            image: "/assets/img/taxi/tempo-9-seater.jpg",
+            image: "/assets/img/taxi/tempotraveller.webp",
 
             details: [
               "Capacity: 9 Passengers",
@@ -308,7 +258,7 @@ export const taxiDetailData = {
 
           {
             title: "12 / 17 Seater Tempo Traveller",
-            image: "/assets/img/taxi/tempo-17-seater.jpg",
+            image: "/assets/img/taxi/maharaja.webp",
 
             details: [
               "Capacity: 12 to 17 Passengers",
@@ -322,7 +272,7 @@ export const taxiDetailData = {
 
           {
             title: "20 / 25 Seater Tempo Traveller",
-            image: "/assets/img/taxi/tempo-25-seater.jpg",
+            image: "/assets/img/taxi/force.webp",
 
             details: [
               "Capacity: 20 to 25 Passengers",
@@ -342,7 +292,7 @@ export const taxiDetailData = {
         cards: [
           {
             title: "Jaipur Sightseeing",
-            image: "/assets/img/taxi/jaipur-sightseeing-tempo.jpg",
+            image: "/assets/img/taxi/taxi.avif",
 
             details: [
               "Amber Fort",
@@ -356,7 +306,7 @@ export const taxiDetailData = {
 
           {
             title: "Rajasthan Family Tour",
-            image: "/assets/img/taxi/rajasthan-tour-tempo.jpg",
+            image: "/assets/img/taxi/sedancar.webp",
 
             details: [
               "Jaipur",
@@ -370,7 +320,7 @@ export const taxiDetailData = {
 
           {
             title: "Wedding & Group Travel",
-            image: "/assets/img/taxi/wedding-tempo.jpg",
+            image: "/assets/img/taxi/force.webp",
 
             details: [
               "Wedding Guest Transportation",
@@ -394,7 +344,7 @@ export const taxiDetailData = {
     type: "bus",
     title: "Jaipur Bus Rental",
     subtitle: "Mini Bus, Tourist Bus & Luxury AC Bus Rental",
-    heroImage: "/assets/img/taxi/jaipur-bus-rental-detail.jpg",
+    heroImage: "/assets/img/taxi/forceurbania.avif",
 
     intro:
       "Hire a bus in Jaipur for weddings, school trips, college tours, corporate events, Rajasthan tours, religious tours, family functions and large group transportation. Choose the seating capacity according to your group size.",
@@ -409,7 +359,7 @@ export const taxiDetailData = {
         cards: [
           {
             title: "27 Seater Bus",
-            image: "/assets/img/taxi/27-seater-bus.jpg",
+            image: "/assets/img/taxi/27seterbus.jpg",
 
             details: [
               "Vehicle Type: Mini Tourist Bus",
@@ -423,7 +373,7 @@ export const taxiDetailData = {
 
           {
             title: "32 Seater Bus",
-            image: "/assets/img/taxi/32-seater-bus.jpg",
+            image: "/assets/img/taxi/bus2.jpg",
 
             details: [
               "Vehicle Type: Tourist Bus",
@@ -437,7 +387,7 @@ export const taxiDetailData = {
 
           {
             title: "35 Seater Bus",
-            image: "/assets/img/taxi/35-seater-bus.jpg",
+            image: "/assets/img/taxi/bus.jpeg",
 
             details: [
               "Vehicle Type: Tourist Bus",
@@ -457,7 +407,7 @@ export const taxiDetailData = {
         cards: [
           {
             title: "42 Seater AC Bus",
-            image: "/assets/img/taxi/42-seater-bus.jpg",
+            image: "/assets/img/taxi/luxricesbus.jpg",
 
             details: [
               "Vehicle Type: Luxury Tourist Bus",
@@ -471,7 +421,7 @@ export const taxiDetailData = {
 
           {
             title: "45 Seater Luxury AC Coach",
-            image: "/assets/img/taxi/45-seater-luxury-bus.jpg",
+            image: "/assets/img/taxi/luxribus2.jpg",
 
             details: [
               "Vehicle Type: Luxury AC Coach",
@@ -485,7 +435,7 @@ export const taxiDetailData = {
 
           {
             title: "49 Seater Luxury AC Coach",
-            image: "/assets/img/taxi/49-seater-luxury-bus.jpg",
+            image: "/assets/img/taxi/luxribus3.avif",
 
             details: [
               "Vehicle Type: Luxury AC Coach",
@@ -505,7 +455,7 @@ export const taxiDetailData = {
         cards: [
           {
             title: "Wedding Bus Rental",
-            image: "/assets/img/taxi/wedding-bus.jpg",
+            image: "/assets/img/taxi/force.webp",
 
             details: [
               "Wedding Guest Transportation",
@@ -519,7 +469,7 @@ export const taxiDetailData = {
 
           {
             title: "Rajasthan Tour Bus",
-            image: "/assets/img/taxi/rajasthan-tour-bus.jpg",
+            image: "/assets/img/taxi/27seterbus.jpg",
 
             details: [
               "Jaipur",
@@ -533,7 +483,7 @@ export const taxiDetailData = {
 
           {
             title: "Corporate & Group Bus",
-            image: "/assets/img/taxi/corporate-bus.jpg",
+            image: "/assets/img/taxi/maharaja.webp",
 
             details: [
               "Corporate Events",
@@ -547,50 +497,7 @@ export const taxiDetailData = {
         ],
       },
 
-      {
-        title: "Large Capacity Bus Options",
-
-        cards: [
-          {
-            title: "50 Seater Bus",
-            image: "/assets/img/taxi/50-seater-bus.jpg",
-
-            details: [
-              "Capacity: 50 Passengers",
-              "Tourist Bus",
-              "AC / Non-AC Options",
-              "Large Luggage Space",
-              "Wedding & Group Tours",
-            ],
-          },
-
-          {
-            title: "52 Seater Bus",
-            image: "/assets/img/taxi/52-seater-bus.jpg",
-
-            details: [
-              "Capacity: 52 Passengers",
-              "Tourist / Luxury Bus",
-              "AC / Non-AC Options",
-              "Comfortable Seating",
-              "Long Distance Travel",
-            ],
-          },
-
-          {
-            title: "56 Seater Bus",
-            image: "/assets/img/taxi/56-seater-bus.jpg",
-
-            details: [
-              "Capacity: 56 Passengers",
-              "Large Tourist Bus",
-              "AC / Non-AC Options",
-              "Large Group Transportation",
-              "Wedding & Rajasthan Tours",
-            ],
-          },
-        ],
-      },
+     
     ],
   },
 
@@ -602,7 +509,7 @@ export const taxiDetailData = {
     type: "luxury",
     title: "Luxury Car Rental In Jaipur",
     subtitle: "BMW, Mercedes, Audi, Jaguar, Fortuner & Premium Cars",
-    heroImage: "/assets/img/taxi/luxury-car-rental-detail.jpg",
+    heroImage: "/assets/img/luxricar/luxriouscar.webp",
 
     intro:
       "Hire luxury and premium cars in Jaipur for weddings, corporate meetings, airport transfers, sightseeing, special events, film shooting and Rajasthan tours. Premium cars are available with chauffeur-driven service.",
@@ -617,7 +524,7 @@ export const taxiDetailData = {
         cards: [
           {
             title: "BMW Luxury Car",
-            image: "/assets/img/taxi/bmw.jpg",
+            image: "/assets/img/luxricar/bmw.webp",
 
             details: [
               "Vehicle: BMW",
@@ -631,7 +538,7 @@ export const taxiDetailData = {
 
           {
             title: "Jaguar XF / F-Pace",
-            image: "/assets/img/taxi/jaguar.jpg",
+            image: "/assets/img/luxricar/jagura.webp",
 
             details: [
               "Vehicle: Jaguar XF / F-Pace",
@@ -645,7 +552,7 @@ export const taxiDetailData = {
 
           {
             title: "Audi A5 / A6 / Q7",
-            image: "/assets/img/taxi/audi.jpg",
+            image: "/assets/img/luxricar/audi.webp",
 
             details: [
               "Vehicle: Audi A5, A6 & Q7",
@@ -665,7 +572,7 @@ export const taxiDetailData = {
         cards: [
           {
             title: "Toyota Fortuner",
-            image: "/assets/img/taxi/fortuner-luxury.jpg",
+            image: "/assets/img/luxricar/toyotofrounter.webp",
 
             details: [
               "Vehicle: Toyota Fortuner",
@@ -679,7 +586,7 @@ export const taxiDetailData = {
 
           {
             title: "Toyota Innova Crysta",
-            image: "/assets/img/taxi/crysta-luxury.jpg",
+            image: "/assets/img/luxricar/crysta.avif",
 
             details: [
               "Vehicle: Toyota Innova Crysta",
@@ -693,7 +600,7 @@ export const taxiDetailData = {
 
           {
             title: "Range Rover",
-            image: "/assets/img/taxi/range-rover.jpg",
+            image: "/assets/img/luxricar/luxriouscar.webp",
 
             details: [
               "Vehicle: Range Rover",
@@ -713,7 +620,7 @@ export const taxiDetailData = {
         cards: [
           {
             title: "Mercedes-Benz S Class",
-            image: "/assets/img/taxi/mercedes-s-class.jpg",
+            image: "/assets/img/luxricar/mecdiz.webp",
 
             details: [
               "Vehicle: Mercedes-Benz S Class",
@@ -727,7 +634,7 @@ export const taxiDetailData = {
 
           {
             title: "Mercedes-Benz E Class",
-            image: "/assets/img/taxi/mercedes-e-class.jpg",
+            image: "/assets/img/luxricar/benz.avif",
 
             details: [
               "Vehicle: Mercedes-Benz E Class",
@@ -741,7 +648,7 @@ export const taxiDetailData = {
 
           {
             title: "Luxury Car For Wedding",
-            image: "/assets/img/taxi/wedding-luxury-car.jpg",
+            image: "/assets/img/luxricar/wedding.webp",
 
             details: [
               "BMW",
@@ -755,53 +662,7 @@ export const taxiDetailData = {
         ],
       },
 
-      {
-        title: "Luxury Cars For Different Occasions",
-
-        cards: [
-          {
-            title: "Wedding Luxury Cars",
-            image: "/assets/img/taxi/wedding-luxury-car.jpg",
-
-            details: [
-              "Bride & Groom Transportation",
-              "Wedding Guest Transfer",
-              "BMW",
-              "Mercedes-Benz",
-              "Audi & Jaguar",
-              "Premium Chauffeur Service",
-            ],
-          },
-
-          {
-            title: "Corporate Luxury Cars",
-            image: "/assets/img/taxi/corporate-luxury-car.jpg",
-
-            details: [
-              "Business Meetings",
-              "Corporate Events",
-              "Airport Pickup",
-              "Airport Drop",
-              "Client Transportation",
-              "Chauffeur Driven",
-            ],
-          },
-
-          {
-            title: "Airport Luxury Car",
-            image: "/assets/img/taxi/airport-luxury-car.jpg",
-
-            details: [
-              "Jaipur Airport Pickup",
-              "Jaipur Airport Drop",
-              "BMW",
-              "Mercedes-Benz",
-              "Audi",
-              "Premium Chauffeur Service",
-            ],
-          },
-        ],
-      },
+    
     ],
   },
 };

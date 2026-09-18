@@ -4,92 +4,95 @@ import Image from "next/image";
 import { Carousel } from "react-bootstrap";
 
 const taxiRoutes = [
-  {
-    id: 1,
-    title: "Jaipur to Ajmer One Way Taxi",
-    route: "Jaipur → Ajmer",
-    image: "/assets/img/taxi/jaipur-ajmer.jpg",
-    duration: "Approx. 3 Hours",
-    type: "One Way",
-    price: "₹ On Request",
-    rating: "4.8",
-    description:
-      "Comfortable one-way taxi from Jaipur to Ajmer with a professional driver.",
-    slug: "jaipur-to-ajmer-taxi",
-  },
+  
+
+
 
   {
-    id: 2,
-    title: "Jaipur to Pushkar One Way Taxi",
-    route: "Jaipur → Pushkar",
-    image: "/assets/img/taxi/jaipur-pushkar.jpg",
-    duration: "Approx. 3 Hours",
-    type: "One Way",
-    price: "₹ On Request",
-    rating: "4.8",
-    description:
-      "Book a comfortable private taxi from Jaipur to Pushkar for a smooth one-way journey.",
-    slug: "jaipur-to-pushkar-taxi",
-  },
+  id: 1,
+  title: "Jaipur to Ajmer",
+  route: "Jaipur → Ajmer",
+  image: "/assets/img/tour/jaipur.avif",
+  duration: "Approx. 3 Hours",
+  type: "One Way",
+  price: "₹ On Request",
+  rating: "4.8",
+  description:
+    "Comfortable one-way taxi from Jaipur to Ajmer with a professional driver.",
+  slug: "jaipur-to-ajmer-one-way",
+},
 
-  {
-    id: 3,
-    title: "Jaipur to Jodhpur One Way Taxi",
-    route: "Jaipur → Jodhpur",
-    image: "/assets/img/taxi/jaipur-jodhpur.jpg",
-    duration: "Approx. 6 Hours",
-    type: "One Way",
-    price: "₹ On Request",
-    rating: "4.8",
-    description:
-      "Private one-way taxi from Jaipur to Jodhpur with comfortable travel and experienced drivers.",
-    slug: "jaipur-to-jodhpur-taxi",
-  },
+{
+  id: 2,
+  title: "Jaipur to Pushkar",
+  route: "Jaipur → Pushkar",
+  image: "/assets/img/tour/puskar.webp",
+  duration: "Approx. 3 Hours",
+  type: "One Way",
+  price: "₹ On Request",
+  rating: "4.8",
+  description:
+    "Book a comfortable private taxi from Jaipur to Pushkar for a smooth one-way journey.",
+  slug: "jaipur-to-pushkar-one-way",
+},
 
+{
+  id: 3,
+  title: "Jaipur to Jodhpur",
+  route: "Jaipur → Jodhpur",
+  image: "/assets/img/tour/jodhpur.webp",
+  duration: "Approx. 6 Hours",
+  type: "One Way",
+  price: "₹ On Request",
+  rating: "4.8",
+  description:
+    "Private one-way taxi from Jaipur to Jodhpur with comfortable travel and experienced drivers.",
+  slug: "jaipur-to-jodhpur-one-way",
+},
 
-   {
-    id: 4,
-    title: "Jaipur to Jodhpur One Way Taxi",
-    route: "Jaipur → Jodhpur",
-    image: "/assets/img/taxi/jaipur-jodhpur.jpg",
-    duration: "Approx. 6 Hours",
-    type: "One Way",
-    price: "₹ On Request",
-    rating: "4.8",
-    description:
-      "Private one-way taxi from Jaipur to Jodhpur with comfortable travel and experienced drivers.",
-    slug: "jaipur-to-jodhpur-taxi",
-  },
+{
+  id: 4,
+  title: "Jaipur to Udaipur",
+  route: "Jaipur → Udaipur",
+  image: "/assets/img/tour/udaipur.webp",
+  duration: "Approx. 7 Hours",
+  type: "One Way",
+  price: "₹ On Request",
+  rating: "4.8",
+  description:
+    "Comfortable private one-way taxi from Jaipur to Udaipur for a smooth Rajasthan journey.",
+  slug: "jaipur-to-udaipur-one-way",
+},
 
+{
+  id: 5,
+  title: "Jaipur to Bikaner",
+  route: "Jaipur → Bikaner",
+  image: "/assets/img/tour/bikaner.webp",
+  duration: "Approx. 6 Hours",
+  type: "One Way",
+  price: "₹ On Request",
+  rating: "4.7",
+  description:
+    "Book a private Jaipur to Bikaner one-way taxi for comfortable and reliable travel.",
+  slug: "jaipur-to-bikaner-one-way",
+},
+
+{
+  id: 6,
+  title: "Jaipur to Jaisalmer",
+  route: "Jaipur → Jaisalmer",
+  image: "/assets/img/tour/jaisalmer.webp",
+  duration: "Approx. 10–11 Hours",
+  type: "One Way",
+  price: "₹ On Request",
+  rating: "4.8",
+  description:
+    "Travel from Jaipur to Jaisalmer in a comfortable private one-way taxi.",
+  slug: "jaipur-to-jaisalmer-one-way",
+},
 
   
-  {
-    id: 2,
-    title: "Jaipur to Pushkar One Way Taxi",
-    route: "Jaipur → Pushkar",
-    image: "/assets/img/taxi/jaipur-pushkar.jpg",
-    duration: "Approx. 3 Hours",
-    type: "One Way",
-    price: "₹ On Request",
-    rating: "4.8",
-    description:
-      "Book a comfortable private taxi from Jaipur to Pushkar for a smooth one-way journey.",
-    slug: "jaipur-to-pushkar-taxi",
-  },
-
-  {
-    id: 3,
-    title: "Jaipur to Jodhpur One Way Taxi",
-    route: "Jaipur → Jodhpur",
-    image: "/assets/img/taxi/jaipur-jodhpur.jpg",
-    duration: "Approx. 6 Hours",
-    type: "One Way",
-    price: "₹ On Request",
-    rating: "4.8",
-    description:
-      "Private one-way taxi from Jaipur to Jodhpur with comfortable travel and experienced drivers.",
-    slug: "jaipur-to-jodhpur-taxi",
-  },
 ];
 
 export default function OneWayTaxiSlider() {
@@ -101,7 +104,7 @@ export default function OneWayTaxiSlider() {
         <div className="one-way-heading">
 
           <div>
-            <span>ONE WAY TAXI SERVICE</span>
+            <span>ONE WAY TOUR</span>
 
             <h2>
               Jaipur One Way Taxi Routes
@@ -171,7 +174,7 @@ export default function OneWayTaxiSlider() {
                       <div className="route-bottom">
                         <strong>{taxi.price}</strong>
 
-                        <a href={`/taxi-service/${taxi.slug}`}>
+                        <a href={`/one-way-tours/${taxi.slug}`}>
                           View Details →
                         </a>
                       </div>

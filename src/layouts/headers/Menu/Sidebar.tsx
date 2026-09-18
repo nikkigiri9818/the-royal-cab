@@ -1,4 +1,4 @@
-import logo from "@/assets/img/logo/logo-green.png"
+import logo from "@/assets/img/logo/logo-1.jpeg"
 import Image from "next/image"
 import Link from "next/link"
 
@@ -14,23 +14,34 @@ const Sidebar = ({ sidebar, setSidebar }: SidebarProps) => {
             <div className="offCanvas__close-icon menu-close">
                <button onClick={() => setSidebar(false)}><i className="fa-sharp fa-regular fa-xmark"></i></button>
             </div>
-            <div className="offCanvas__logo mb-30">
-               <Link href="/"><Image src={logo} alt="Logo" /></Link>
-            </div>
+           <div className="offCanvas__logo mb-30">
+  <Link href="/">
+    <Image
+      src={logo}
+      width={56}
+      height={70}
+      alt="The Royal Cars Logo"
+      style={{
+        width: "120px",
+        height: "70px",
+        objectFit: "contain",
+      }}
+    />
+  </Link>
+</div>
             <div className="offCanvas__side-info mb-30">
                <div className="contact-list mb-30">
                   <h4>Office Address</h4>
-                  <p>123/A, Miranda City Likaoli <br /> Prikano, Dope</p>
+                  <p>G-28, Upsana Apna Bazar,Lata Circle <br />Jhotwara, Jaipur</p>
                </div>
                <div className="contact-list mb-30">
                   <h4>Phone Number</h4>
-                  <p>+0989 7876 9865 9</p>
-                  <p>+(090) 8765 86543 85</p>
+                  <p>+91 7849993464</p>
+                  <p>+91 9286735906</p>
                </div>
                <div className="contact-list mb-30">
                   <h4>Email Address</h4>
-                  <p>info@example.com</p>
-                  <p>example.mail@hum.com</p>
+                  <p>theroyalcabs16@gmail.com</p>
                </div>
             </div>
             <div className="offCanvas__social-icon mt-30">

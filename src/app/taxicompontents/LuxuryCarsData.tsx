@@ -1,9 +1,9 @@
-import car1 from "@/assets/img/taxi/taxi.avif";
-import car2 from "@/assets/img/taxi/taxi.avif";
-import car3 from "@/assets/img/taxi/taxi.avif";
-import car4 from "@/assets/img/taxi/taxi.avif";
-import car5 from "@/assets/img/taxi/taxi.avif";
-import car6 from "@/assets/img/taxi/taxi.avif";
+import car1 from "@/assets/img/luxricar/bmw.webp";
+import car2 from "@/assets/img/luxricar/jagura.webp";
+import car3 from "@/assets/img/luxricar/audi.webp";
+import car4 from "@/assets/img/luxricar/toyotofrounter.webp";
+import car5 from "@/assets/img/luxricar/mecdiz.webp";
+import car6 from "@/assets/img/luxricar/luxriouscar.webp";
 
 export const luxuryCars = [
   {

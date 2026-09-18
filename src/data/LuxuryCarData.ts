@@ -1,10 +1,10 @@
 import { StaticImageData } from "next/image";
 
-import luxury_1 from "@/assets/img/taxi/taxi.avif";
-import luxury_2 from "@/assets/img/taxi/taxi.avif";
-import luxury_3 from "@/assets/img/taxi/taxi.avif";
-import luxury_4 from "@/assets/img/taxi/taxi.avif";
-import luxury_5 from "@/assets/img/taxi/taxi.avif";
+import luxury_1 from "@/assets/img/luxricar/mecdiz.webp";
+import luxury_2 from "@/assets/img/luxricar/bmw.webp";
+import luxury_3 from "@/assets/img/luxricar/toyotofrounter.webp";
+import luxury_4 from "@/assets/img/luxricar/luxriouscar.webp";
+import luxury_5 from "@/assets/img/luxricar/wedding.webp";
 
 interface LuxuryCarType {
    id: number;

@@ -93,7 +93,7 @@ const menu_data: MenuItem[] = [
     id: 4,
     title: "Tour Services",
     link: "/tour-services",
-    has_dropdown: true,
+    has_dropdown: false,
 
     sub_menus: [
         {
@@ -140,7 +140,7 @@ const menu_data: MenuItem[] = [
     id: 4,
     title: "One-way Tours",
     link: "/one-way-tours",
-    has_dropdown: true,
+    has_dropdown: false,
 
     sub_menus: [
                 {  title: "Jaipur Darshan", link: "/tour-services/one-way/jaipur-darshan" },

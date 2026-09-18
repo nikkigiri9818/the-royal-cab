@@ -9,7 +9,7 @@ export default function page() {
     <>
          <HeaderThree />
          <main>
-            <BreadCrumb title="Tour Services" sub_title="Tour Services" />
+            <BreadCrumb title="Tour Services" sub_title="Tour Services" image='https://captureatrip-cms-storage.s3.ap-south-1.amazonaws.com/Amer_Fort_Rajasthan_02932fca2c.webp' />
             <TourListPage/>
             
          </main>

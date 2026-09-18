@@ -32,7 +32,7 @@ export const oneWayTours: OneWayTour[] = [
 
     title: "Jaipur to Ajmer One Way Taxi",
 
-    image: "/assets/img/one-way/jaipur-ajmer.jpg",
+    image: "/assets/img/tour/jaipur.avif",
 
     rating: "4.8",
 
@@ -104,7 +104,7 @@ export const oneWayTours: OneWayTour[] = [
 
     title: "Jaipur to Pushkar One Way Taxi",
 
-    image: "/assets/img/one-way/jaipur-pushkar.jpg",
+    image: "/assets/img/tour/puskar.webp",
 
     rating: "4.8",
 
@@ -176,7 +176,7 @@ export const oneWayTours: OneWayTour[] = [
 
     title: "Jaipur to Jodhpur One Way Taxi",
 
-    image: "/assets/img/one-way/jaipur-jodhpur.jpg",
+    image: "/assets/img/tour/jodhpur.webp",
 
     rating: "4.8",
 
@@ -248,7 +248,7 @@ export const oneWayTours: OneWayTour[] = [
 
     title: "Jaipur to Udaipur One Way Taxi",
 
-    image: "/assets/img/one-way/jaipur-udaipur.jpg",
+    image: "/assets/img/tour/udaipur.webp",
 
     rating: "4.8",
 
@@ -320,7 +320,7 @@ export const oneWayTours: OneWayTour[] = [
 
     title: "Jaipur to Bikaner One Way Taxi",
 
-    image: "/assets/img/one-way/jaipur-bikaner.jpg",
+    image: "/assets/img/tour/bikaner.webp",
 
     rating: "4.7",
 
@@ -392,7 +392,7 @@ export const oneWayTours: OneWayTour[] = [
 
     title: "Jaipur to Jaisalmer One Way Taxi",
 
-    image: "/assets/img/one-way/jaipur-jaisalmer.jpg",
+    image: "/assets/img/tour/jaisalmer.webp",
 
     rating: "4.8",
 

@@ -10,7 +10,7 @@ const About = () => {
       <>
          <HeaderThree />
          <main>
-            <BreadCrumb title="About Us" sub_title="About Us" />
+            <BreadCrumb title="About Us" sub_title="About Us" image="https://www.rajasthanplaces.com/wp-content/uploads/2024/07/Jaisalmer-Fort.webp" />
             <AboutArea />
             <Choose />
             <Cta />

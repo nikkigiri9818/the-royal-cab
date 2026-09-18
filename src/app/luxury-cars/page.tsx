@@ -8,7 +8,7 @@ export default function page() {
     <>
          <HeaderThree />
          <main>
-            <BreadCrumb title="Luxury-cars" sub_title="Luxury Car" />
+            <BreadCrumb title="Luxury-cars" sub_title="Luxury Car" image='https://www.rolls-roycemotorcarsranchomirage.com/static/dealer-12176/2025-phantom/P90564792_highRes_phantom-scintilla.webp'/>
             <LuxuryCarsPage/>
             
          </main>

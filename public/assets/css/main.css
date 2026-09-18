@@ -979,8 +979,8 @@ textarea {
   background: linear-gradient(180deg, #000 0%, rgba(0, 0, 0, 0) 100%);
 }
 .tg-breadcrumb-spacing-5 {
-  padding-top: 182px;
-  padding-bottom: 128px;
+  padding-top: 110px;
+  padding-bottom: 80px;
 }
 @media (max-width: 575px) {
   .tg-breadcrumb-spacing-5 {
@@ -1262,7 +1262,7 @@ textarea {
   text-align: left;
 }
 .tgmobile__menu .nav-logo img {
-  width: 150px;
+  width: 106px;
 }
 .tgmobile__menu .navigation {
   position: relative;

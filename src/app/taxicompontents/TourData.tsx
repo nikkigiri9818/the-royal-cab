@@ -40,7 +40,7 @@ export const tourData: TourDataType[] = [
     destinations: "Delhi • Agra • Jaipur",
     description:
       "India's most celebrated travel route connecting Delhi, Agra and Jaipur through centuries of history, art, architecture and royal heritage.",
-    image: "/assets/img/tours/tour-1.jpg",
+    image: "/assets/img/tour/taj.jpg",
 
     itinerary: [
       {
@@ -116,7 +116,7 @@ export const tourData: TourDataType[] = [
       "Chennai • Mahabalipuram • Pondicherry • Chidambaram • Thanjavur • Trichy • Madurai",
     description:
       "A journey through Tamil Nadu combining coastal beauty, UNESCO heritage monuments, temples, colonial charm and sacred traditions.",
-    image: "/assets/img/tours/tour-2.jpg",
+    image: "/assets/img/tour/tamil.jpg",
 
     itinerary: [
       {
@@ -204,7 +204,7 @@ export const tourData: TourDataType[] = [
       "Jabalpur • Bhedaghat • Kanha • Bandhavgarh • Pachmarhi",
     description:
       "A wildlife and nature journey through marble rock canyons, waterfalls, dense forests, tiger safaris and the hill landscapes of Madhya Pradesh.",
-    image: "/assets/img/tours/tour-3.jpg",
+    image: "/assets/img/tour/wild.jpg",
 
     itinerary: [
       {
@@ -291,294 +291,11 @@ export const tourData: TourDataType[] = [
     nights: "8 Nights",
   },
 
-  {
-    id: 4,
-    slug: "10-day-cultural-temple-circuit-tamil-nadu",
-    title: "10-Day Cultural & Temple Circuit",
-    duration: "10 Days / 9 Nights",
-    rating: "4.9",
-    price: "₹ On Request",
-    startCity: "Chennai",
-    tripType: "Cultural & Temple Tour",
-    destinations:
-      "Chennai • Kanchipuram • Mahabalipuram • Pondicherry • Chidambaram • Thanjavur • Trichy • Madurai • Rameshwaram",
-    description:
-      "A deeply immersive Tamil Nadu journey covering ancient Dravidian temples, UNESCO heritage sites, coastal towns and vibrant traditions.",
-    image: "/assets/img/tours/tour-4.jpg",
 
-    itinerary: [
-      {
-        day: "Day 1",
-        title: "Arrival in Chennai",
-        description:
-          "Hotel check-in and explore Marina Beach and local attractions.",
-      },
-      {
-        day: "Day 2",
-        title: "Chennai to Kanchipuram",
-        description:
-          "Visit sacred temples of Kanchipuram.",
-      },
-      {
-        day: "Day 3",
-        title: "Mahabalipuram Exploration",
-        description:
-          "Visit Shore Temple, Five Rathas and Arjuna's Penance.",
-      },
-      {
-        day: "Day 4",
-        title: "Mahabalipuram to Pondicherry",
-        description:
-          "Coastal drive, French Quarter, Promenade Beach and Aurobindo Ashram.",
-      },
-      {
-        day: "Day 5",
-        title: "Pondicherry to Chidambaram",
-        description:
-          "Visit Chidambaram Nataraja Temple.",
-      },
-      {
-        day: "Day 6",
-        title: "Thanjavur Sightseeing",
-        description:
-          "Visit Brihadeeswara Temple.",
-      },
-      {
-        day: "Day 7",
-        title: "Thanjavur to Trichy to Madurai",
-        description:
-          "Visit Rock Fort Temple and continue to Madurai.",
-      },
-      {
-        day: "Day 8",
-        title: "Madurai Temple Tour",
-        description:
-          "Visit Meenakshi Amman Temple and local markets.",
-      },
-      {
-        day: "Day 9",
-        title: "Rameshwaram Excursion",
-        description:
-          "Visit Ramanathaswamy Temple and Pamban Bridge.",
-      },
-      {
-        day: "Day 10",
-        title: "Departure",
-        description:
-          "Breakfast and transfer for onward journey.",
-      },
-    ],
 
-    included: [
-      "Luxury accommodation",
-      "Private AC transport",
-      "Expert local guides",
-      "All entry tickets",
-      "Meals & dining",
-      "24/7 support",
-    ],
 
-    excluded: [
-      "Airfare or train tickets",
-      "Personal expenses and shopping",
-      "Camera / video fees",
-      "Travel insurance",
-      "Lunch and evening snacks",
-    ],
 
-    route: [
-      "Chennai",
-      "Kanchipuram",
-      "Mahabalipuram",
-      "Pondicherry",
-      "Chidambaram",
-      "Thanjavur",
-      "Trichy",
-      "Madurai",
-      "Rameshwaram",
-    ],
 
-    totalKm: "~1000 KM",
-    nights: "9 Nights",
-  },
-
-  {
-    id: 5,
-    slug: "spiritual-heritage-highlights",
-    title: "Spiritual & Heritage Highlights",
-    duration: "7 Days / 6 Nights",
-    rating: "4.5",
-    price: "₹ On Request",
-    startCity: "Bhopal",
-    tripType: "Spiritual & Heritage Tour",
-    destinations:
-      "Bhopal • Sanchi • Bhimbetka • Ujjain • Indore • Mandu • Maheshwar • Omkareshwar",
-    description:
-      "A soulful Madhya Pradesh journey covering ancient temples, sacred Jyotirlingas, UNESCO heritage sites, riverside ghats and historic forts.",
-    image: "/assets/img/tours/tour-5.jpg",
-
-    itinerary: [
-      {
-        day: "Day 1",
-        title: "Arrival in Bhopal",
-        description:
-          "Hotel check-in, leisure time and explore lakes or local markets.",
-      },
-      {
-        day: "Day 2",
-        title: "Sanchi & Bhimbetka Excursion",
-        description:
-          "Visit Sanchi Stupa and Bhimbetka Rock Shelters.",
-      },
-      {
-        day: "Day 3",
-        title: "Bhopal to Ujjain",
-        description:
-          "Visit Mahakaleshwar Jyotirlinga and Ram Ghat.",
-      },
-      {
-        day: "Day 4",
-        title: "Ujjain to Indore & Mandu",
-        description:
-          "Visit Indore and continue to Mandu for Jahaz Mahal and historic architecture.",
-      },
-      {
-        day: "Day 5",
-        title: "Mandu to Maheshwar",
-        description:
-          "Explore Mandu and visit Maheshwar fort, ghats and Narmada Aarti.",
-      },
-      {
-        day: "Day 6",
-        title: "Maheshwar to Omkareshwar",
-        description:
-          "Visit Omkareshwar Jyotirlinga and sacred ghats.",
-      },
-      {
-        day: "Day 7",
-        title: "Departure",
-        description:
-          "Breakfast and transfer for onward journey.",
-      },
-    ],
-
-    included: [
-      "Luxury accommodation",
-      "Private AC transport",
-      "Expert local guides",
-      "All entry tickets",
-      "Meals & dining",
-      "24/7 support",
-    ],
-
-    excluded: [
-      "Airfare or train tickets",
-      "Personal expenses",
-      "Camera / video fees",
-      "Travel insurance",
-      "Lunch and evening snacks",
-    ],
-
-    route: [
-      "Bhopal",
-      "Sanchi / Bhimbetka",
-      "Ujjain",
-      "Indore / Mandu",
-      "Maheshwar",
-      "Omkareshwar",
-    ],
-
-    totalKm: "~850 KM",
-    nights: "6 Nights",
-  },
-
-  {
-    id: 6,
-    slug: "7-day-heritage-jaipur-udaipur",
-    title: "7-Day Heritage Itinerary",
-    duration: "7 Days / 6 Nights",
-    rating: "4.3",
-    price: "₹ On Request",
-    startCity: "Jaipur",
-    tripType: "Heritage Tour",
-    destinations:
-      "Jaipur • Ajmer • Pushkar • Jodhpur • Udaipur",
-    description:
-      "Explore Rajasthan's iconic heritage destinations with forts, sacred temples, colourful bazaars, blue city streets and lakeside palaces.",
-    image: "/assets/img/tours/tour-6.jpg",
-
-    itinerary: [
-      {
-        day: "Day 1",
-        title: "Arrival in Jaipur",
-        description:
-          "Hotel check-in and evening exploration of local markets.",
-      },
-      {
-        day: "Day 2",
-        title: "Jaipur Sightseeing",
-        description:
-          "Visit Amber Fort, City Palace, Jantar Mantar and Hawa Mahal.",
-      },
-      {
-        day: "Day 3",
-        title: "Jaipur to Pushkar via Ajmer",
-        description:
-          "Visit Ajmer Sharif Dargah and continue to Pushkar.",
-      },
-      {
-        day: "Day 4",
-        title: "Pushkar to Jodhpur",
-        description:
-          "Drive to Jodhpur and explore blue city streets and Clock Tower Market.",
-      },
-      {
-        day: "Day 5",
-        title: "Jodhpur to Udaipur",
-        description:
-          "Visit Mehrangarh Fort and Jaswant Thada before Udaipur.",
-      },
-      {
-        day: "Day 6",
-        title: "Udaipur Sightseeing",
-        description:
-          "Visit City Palace, Jagdish Temple and Lake Pichola.",
-      },
-      {
-        day: "Day 7",
-        title: "Departure",
-        description:
-          "Breakfast and transfer for onward journey.",
-      },
-    ],
-
-    included: [
-      "Luxury accommodation",
-      "Private AC transport",
-      "Expert local guides",
-      "All entry tickets",
-      "Meals & dining",
-      "24/7 support",
-    ],
-
-    excluded: [
-      "Airfare or train tickets",
-      "Personal expenses and shopping",
-      "Camera / video fees",
-      "Travel insurance",
-      "Lunch and evening snacks",
-    ],
-
-    route: [
-      "Jaipur",
-      "Ajmer / Pushkar",
-      "Jodhpur",
-      "Udaipur",
-    ],
-
-    totalKm: "~650 KM",
-    nights: "6 Nights",
-  },
 
   {
     id: 7,
@@ -593,7 +310,7 @@ export const tourData: TourDataType[] = [
       "Jaipur • Bikaner • Jaisalmer • Jodhpur • Udaipur",
     description:
       "Discover Rajasthan's royal cities, desert landscapes, golden dunes, blue streets and romantic lakes.",
-    image: "/assets/img/tours/tour-7.jpg",
+    image: "/assets/img/tour/udaipur.webp",
 
     itinerary: [
       {
@@ -688,7 +405,7 @@ export const tourData: TourDataType[] = [
       "Jaipur • Ranthambore • Pushkar • Jodhpur • Jaisalmer • Udaipur • Chittorgarh",
     description:
       "An immersive Rajasthan journey covering royal heritage, wildlife safaris, sacred temples, golden deserts and lakeside palaces.",
-    image: "/assets/img/tours/tour-8.jpg",
+    image: "/assets/img/tour/rajclu.webp",
 
     itinerary: [
       {
@@ -821,7 +538,7 @@ export const tourData: TourDataType[] = [
       "Jaipur • Pushkar • Jodhpur • Udaipur",
     description:
       "A Rajasthan heritage journey blending forts, sacred towns, desert landscapes, blue city streets and serene lakes.",
-    image: "/assets/img/tours/tour-9.jpg",
+    image: "/assets/img/tour/jodhpur.webp",
 
     itinerary: [
       {
@@ -909,7 +626,7 @@ export const tourData: TourDataType[] = [
       "Jaipur • Jodhpur • Udaipur",
     description:
       "A compact Rajasthan journey covering Jaipur, Jodhpur and Udaipur with forts, palaces, desert vibes and lakes.",
-    image: "/assets/img/tours/tour-10.jpg",
+    image: "/assets/img/tour/udaipur.webp",
 
     itinerary: [
       {
@@ -983,7 +700,7 @@ export const tourData: TourDataType[] = [
     destinations: "Jaipur",
     description:
       "Explore Jaipur's royal heritage through palaces, forts, bazaars and cultural experiences.",
-    image: "/assets/img/tours/tour-11.jpg",
+    image: "/assets/img/tour/jaipur.avif",
 
     itinerary: [
       {
@@ -1034,7 +751,7 @@ export const tourData: TourDataType[] = [
     destinations: "Jaipur • Ajmer • Pushkar",
     description:
       "A perfect blend of Jaipur's royal heritage and Pushkar's spiritual experience, including forts, palaces, bazaars, holy lake and Brahma Temple.",
-    image: "/assets/img/tours/tour-12.jpg",
+    image: "/assets/img/tour/puskar.webp",
 
     itinerary: [
       {

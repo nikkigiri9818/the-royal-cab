@@ -14,7 +14,7 @@ const taxiservice = () => {
       <>
          <HeaderThree />
          <main>
-            <BreadCrumb title="Taxi Services" sub_title="Taxi Services" />
+            <BreadCrumb title="Taxi Services" sub_title="Taxi Services" image="https://choosemycar.com/wp-content/uploads/2025/02/toyota-corolla-hybrid-best-cars-with-excellent-fuel-economy.webp" />
             <RajasthanTaxiAbout />
             <RajasthanTaxiGrid/>
             <TaxiServicesSection/>

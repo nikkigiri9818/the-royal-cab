@@ -10,7 +10,7 @@ export default function page() {
     <>
          <HeaderThree />
          <main>
-            <BreadCrumb title="One Way Tours & Taxi" sub_title="One Way Tour Service" />
+      <BreadCrumb title="One Way Tours & Taxi" sub_title="One Way Tour Service"  image='https://rajasthanyatra.in/blog/wp-content/uploads/2024/06/udaipur.webp'/>
             
              <main className="one-way-page">
 

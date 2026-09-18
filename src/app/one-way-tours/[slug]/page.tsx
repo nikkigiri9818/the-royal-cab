@@ -36,7 +36,7 @@ const OneWayDetailsPage = async ({
   return (
 <>
      <HeaderThree/>
-     <BreadCrumb title="One Way Tour Details" sub_title={tour.title} />
+     <BreadCrumb title="One Way Tour Details" sub_title={tour.title} image={tour.image} />
     <main className="one-way-detail-page">
 
       {/* =====================================================

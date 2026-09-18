@@ -2,7 +2,7 @@ import Contact from "@/components/contact";
 import Wrapper from "@/layouts/Wrapper";
 
 export const metadata = {
-  title: "Contact Tourex - Tour & Travel Booking React Next js Template",
+  title: "Contact The Royal Cars | Taxi & Tour Packages in Rajasthan",
 };
 const page = () => {
   return (

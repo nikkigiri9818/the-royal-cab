@@ -30,7 +30,7 @@ export const taxiServices = [
     id: 4,
     title: "Luxury Car Rental",
     slug: "luxury-car-rental",
-    image: "/assets/img/taxi/tayoto.webp",
+    image: "/assets/img/luxricar/luxriouscar.webp",
     description:
       "Get the best price on a luxury car rental in Jaipur, including Mercedes, BMW, Audi, Jaguar, Toyota Fortuner Legender. We provide luxury cars for weddings, family trips, etc.",
   },
